@@ -86,13 +86,13 @@ $ git pull
 ```
 
 ## rebase
-fast-forward（変更履歴を一本化）
-**rebase前**
-1-2ー3-4-5-6-master
-　　l-7-8-9-branch_name
-===>
-**rebase後**
-master-7-8-9-branch_name
+fast-forward（変更履歴を一本化）  
+**rebase前**  
+1-2ー3-4-5-6-master  
+　　l-7-8-9-branch_name  
+===>  
+**rebase後**  
+master-7-8-9-branch_name  
 
 1. rebaseしたいブランチに移動しrebase
     ```shell=
